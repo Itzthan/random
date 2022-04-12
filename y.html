@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuk Ikut Aku</title>
+
+    <!-- font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+        </style>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="font-family: 'Nanum Pen Script', cursive;">
+    
+    <div class="container-fluid mx-auto p-5">
+        <div class="card mb-4">
+            <div class="card-title fs-4 text-center">
+                Kalo kamu bosen, aku udah sediain musik buat kamu
+            </div>
+            <!-- iframe by https://labw3.blogspot.com/p/google-audio-embed-code-generator.html -->
+            <!-- <iframe frameborder="0" width="350" height="60" src="https://drive.google.com/file/d/1qqj_p0m_6tCUdnLfI65EIjLKJRa14yk0/preview" class="mx-auto"></iframe> -->
+            
+            <div class="row justify-content-center p-3">
+                <audio controls id="musicPlayer">
+                    <source src="E:\File\materi\audio\oceaneys.mp3" autoplay="false" width="400" height="300" name="musicPlayer" id="musicPlayer">
+                </audio>
+            </div>
+            
+        </div>
+        <div class="row justify-content-center">
+            
+            <!-- source unsplash -->
+            <div class="card float-start me-3" style="width: 25rem;">
+                <div class="card-body">
+                    <!-- (Untuk mengganti gambar) img src="Pastekan link gambar disini" class="img-fluid float-end" alt="...">  -->
+                    <img src="https://images.unsplash.com/photo-1480618376353-2950ee462b17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="img-fluid float-end" alt="...">
+                    <div class="card-title fs-2">Aku Disini Buat Kamu</div>
+                    <div class="card-text float-start">Jadi sebenernya, aku cuman pengen kamu gak terus terusan khawatirin aku. Aku bikinin ini, ya karena aku pengen rasa kangen kamu itu terobati. utu utu utu</div>
+                </div>
+            </div>
+
+            <div class="card float-start me-3" style="width: 25rem;">
+                <div class="card-body">
+                    <!-- (Untuk mengganti gambar) img src="Pastekan link gambar disini" class="img-fluid float-end" alt="...">  -->
+                    <img src="https://images.unsplash.com/photo-1511898290398-cee3038fa7a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" class="img-fluid float-end" alt="...">
+                    <div class="card-title fs-2">Jangan lupa istirahat ya</div>
+                    <div class="card-text float-start">Walaupun aku bisa aja jarang banget ada waktu buat kamu, tapi kamu jangan sampai lupa makan, minum, istirahat yang cukup. Jangan terlalu banyak overthingking oke? Kalo kamu takut sendirian, bilang aja, pasti chat kamu bakalan aku balas kok. Ga mungkin kan chat Kamu aku tinggalin gitu aja? Jangan takut atuh buat chat aku.</div>
+                </div>
+            </div>
+
+            <div class="card float-start" style="width: 25rem;">
+                <div class="card-body">
+                    <!-- (Untuk mengganti gambar) img src="Pastekan link gambar disini" class="img-fluid float-end" alt="...">  -->
+                    <img src="https://images.unsplash.com/photo-1514770643069-54183731a981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="img-fluid float-end" alt="...">
+                    <div class="card-title fs-2">Aku pengen ...</div>
+                    <div class="card-text float-start">Alasan aku sibuk terus, kerja sana sini, karena aku pengen seriusin hubungan kita. setelah aku selesai dengan semua proyek aku, aku bakal beliin rumah buat kita, minta restu ke orang tuamu terus kita rayain hari spesial kita. Jadi aku harap kamu jangan pergi dari aku ya</div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <a href="loveyou.html" class="link-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
+            </svg>Klik Aku >///<</a>   
+          </ul>
+          <p class="text-center text-muted">Aku Pacarmu</p>
+        </footer>
+      </div>
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
